@@ -1,156 +1,197 @@
-@media all  and (min-width :768px) and (max-width:960px)
-{
-     #a{
-        height:100px ;
-        width: 100%;
-        background-color: aquamarine;
-        
+@media (max-width:960px) {
+    div {
+       display: flex;
+       flex-direction: row;
+      flex-wrap: wrap;
+   }
+    
+    .first{
+        width:760px ;
+    
+    
+   }
+   .final {
+       width:960px ;
+   }
+   
+    .sec{
+   width: 760px;
     }
-    #b {
-        height:600px ;
-        width:20.83333333%;
-        background-color: cadetblue;
-        
-        float: left;
-    }
-    #c {
-        width: 39.58333333%;
-        height: 200px;
-        background-color: lawngreen;
-        
-        float: left;
-        
+      
+   
+    main > aside {
+        /* order: 2; */
+       background: cadetblue;
+       height:600px ;
+       width: 200px;
+       display: flex;
+       line-height: 70px;
+       text-align: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+         
+   }
+   
+   
+   div > #c {
+       width: 380px;
+       height: 200px;
+       background: rgb(226, 176, 214);
+       /* order: 3; */
+       display: flex;
+       line-height: 70px;
+       text-align: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+       
+   
+   }
+   div > #d {
+       width: 380px;
+       height: 200px;
+       background: rgb(139, 219, 175);
+       /* order: 3; */
+       display: flex;
+       line-height: 70px;
+       text-align: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+   }
+   div > #e{
+       width: 190px;
+       height: 250px;
+      background: rgb(152, 130, 179);
+      line-height: 70px;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+   }
+   div > #f {
+       width: 190px;
+       height: 250px;
+      background: rgb(233, 240, 175);
+      line-height: 70px;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+   
+   }
+   div > #g {
+       width: 190px;
+       height: 250px;
+      background: coral;
+      line-height: 70px;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+   }
+   div > #h {
+       width: 190px;
+       height: 250px;
+      background: rgb(216, 116, 136);
+      line-height: 70px;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+   }
+   
+       
+   }
+   
+
+   @media (max-width:767px){
+    
+       div {
+          display: flex;
+          flex-direction: row;
+         flex-wrap: wrap;
+      }
+       
+       .first{
+           width:480px ;
        
        
-    }
-     #d {
-        width: 39.58333333%;
-        height: 200px;
-        background-color: rgb(147, 134, 223);
-        
-       float: right;
-       
-    } 
-    /* #e , #f , #g , #h {
-        width: 19.79166667%;
-        height: 200px;
-        
-       float: left;
-    } */
+      }
+      .final {
+          width:480px ;
+      }
+      
+       .sec{
+      width: 480px;
+       }
 
-    #e{
-        width: 19.79166667%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(47, 39, 88);
-
-    }
-    #f {
-        width: 19.79166667%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(66, 173, 62);
-
-    }
-    #g {
-        width: 19.79166667%;
-        height: 250px;
-        
-       float: left;
-        background-color: coral;
-    }
-    #h {
-        width: 19.79166667%;
-        height: 250px;
-       
-       float: left;
-        background-color: crimson;
-    }
-    #i {
-        width: 79.16666667%;
-        height: 150px;
-        
-        background-color: rgb(14, 133, 113);
-       float: right;
-        
-    }
-}
-
-@media all  and (min-width :480px) and (max-width:767px)
-{
-    #a {
-        height:75px ;
-        width: 100% ;
-        background-color: rgb(231, 58, 202);
-        
-    }
-    #b {
-        height:150px ;
-        width: 100% ;
-        background-color: hotpink;
-        
-    }
-    #c {
-        width: 100%;
-        height: 125px;
-        background-color:fuchsia;
-        
-        float: left;
-    }
-    #d {
-        width: 100%;
-        height: 125px;
-        background-color: rgb(54, 33, 175);
-        
-       float: right;
-       
-    } 
-
-    /* #e , #f , #g , #h {
-        width: 50%;
-        height: 250px;
-        
-       float: left;
-    } */
-
-    #e{
-        width: 50%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(29, 208, 253);
-
-    }
-    #f {
-        width: 50%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(18, 189, 12);
-
-    }
-    #g {
-        width: 50%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(131, 58, 32);
-    }
-    #h {
-        width: 50%;
-        height: 250px;
-        
-       float: left;
-        background-color: rgb(59, 4, 15);
-    }
-
-    #i {
-        width: 100%;
-        height: 80px;
-        
-        background-color: rgb(14, 133, 113);
-        clear: both;
-    }
-}
+       main > aside {
+           /* order: 2; */
+          background: cadetblue;
+          height:150px ;
+          width: 480px;
+          display: flex;
+          line-height: 70px;
+          text-align: center;
+          justify-content: space-evenly;
+          flex-direction: column;    
+      }
+      
+      div > #c {
+          width: 480px;
+          height: 125px;
+          background: rgb(226, 176, 214);
+          /* order: 3; */
+          display: flex;
+          line-height: 70px;
+          text-align: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+          
+      
+      }
+      div > #d {
+          width: 480px;
+          height: 125px;
+          background: rgb(139, 219, 175);
+          /* order: 3; */
+          display: flex;
+          line-height: 70px;
+          text-align: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+      }
+      div > #e{
+          width: 240px;
+          height: 250px;
+         background: rgb(152, 130, 179);
+         line-height: 70px;
+         text-align: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+      }
+      div > #f {
+          width: 240px;
+          height: 250px;
+         background: rgb(233, 240, 175);
+         line-height: 70px;
+         text-align: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+      
+      }
+      div > #g {
+          width: 240px;
+          height: 250px;
+         background: coral;
+         line-height: 70px;
+         text-align: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+      }
+      div > #h {
+          width: 240px;
+          height: 250px;
+         background: rgb(216, 116, 136);
+         line-height: 70px;
+         text-align: center;
+         justify-content: space-evenly;
+         flex-direction: column;
+      }
+     
+   }
