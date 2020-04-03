@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+/*     box-sizing: border-box; */
 }
 
 html, body {
@@ -8,9 +8,7 @@ html, body {
 
 }
 
-body > * {
-    border: 1px solid #000;
-}
+
 
 @media (max-width:960px) {
     main {
