@@ -23,7 +23,7 @@
         display: flex;
        
     }
-    aside#b {
+     aside#b {
         background: cadetblue;
         height: 600px;
         width: 200px;
@@ -33,7 +33,6 @@
         justify-content: space-evenly;
         flex-direction: column;
     }
-   
    
    div > #c {
        width: 380px;
@@ -134,15 +133,15 @@
     }
      
     aside#b {
-        background: cadetblue;
-        height:150px ;
-        width: 480px;
-        display: flex;
-        line-height: 70px;
-        text-align: center;
-        justify-content: space-evenly;
-        flex-direction: column; 
-    }
+    background: cadetblue;
+    height: 150px;
+    width: 480px;
+    display: flex;
+    line-height: 70px;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
       
     div > #c {
         width: 480px;
