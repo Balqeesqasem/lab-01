@@ -18,19 +18,21 @@
    width: 760px;
     }
       
-   
-    main > aside {
-        /* order: 2; */
-       background: cadetblue;
-       height:600px ;
-       width: 200px;
-       display: flex;
-       line-height: 70px;
-       text-align: center;
-       justify-content: space-evenly;
-       flex-direction: column;
-         
-   }
+    section {
+        width: 1916px;
+        display: flex;
+       
+    }
+    aside#b {
+        background: cadetblue;
+        height: 600px;
+        width: 200px;
+        display: flex;
+        line-height: 70px;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
    
    
    div > #c {
@@ -118,33 +120,41 @@
       
        .sec{
       width: 480px;
+      display: flex;
+      flex-direction: row;
        }
-
-       main > aside {
-           /* order: 2; */
-          background: cadetblue;
-          height:150px ;
-          width: 480px;
-          display: flex;
-          line-height: 70px;
-          text-align: center;
-          justify-content: space-evenly;
-          flex-direction: column;    
-      }
+       .tt {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        width: 1916px;
+        display: flex;
+        flex-direction: column;
+    }
+     
+    aside#b {
+        background: cadetblue;
+        height:150px ;
+        width: 480px;
+        display: flex;
+        line-height: 70px;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: column; 
+    }
       
-      div > #c {
-          width: 480px;
-          height: 125px;
-          background: rgb(226, 176, 214);
-          /* order: 3; */
-          display: flex;
-          line-height: 70px;
-          text-align: center;
-          justify-content: space-evenly;
-          flex-direction: column;
-          
-      
-      }
+    div > #c {
+        width: 480px;
+        height: 125px;
+        background: rgb(226, 176, 214);
+        /* order: 3; */
+        display: flex;
+        line-height: 70px;
+        text-align: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
       div > #d {
           width: 480px;
           height: 125px;
