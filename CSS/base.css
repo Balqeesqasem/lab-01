@@ -1,16 +1,17 @@
-* {
+
+/* * {
     box-sizing: border-box;
-}
+} */
 
 html, body {
-    height: 100%;
-    /* display: flex; */
+    
+    display: flex;
 
 }
 
-body > * {
+/* body > * {
     border: 1px solid #000;
-}
+} */
 
 @media (max-width:960px) {
     main {
@@ -32,3 +33,5 @@ body > * {
        }
        
    }
+
+
