@@ -24,7 +24,7 @@
        
     }
      aside#b {
-        background: cadetblue;
+        
         height: 600px;
         width: 200px;
         display: flex;
@@ -37,7 +37,7 @@
    div > #c {
        width: 380px;
        height: 200px;
-       background: rgb(226, 176, 214);
+     
        /* order: 3; */
        display: flex;
        line-height: 70px;
@@ -50,7 +50,7 @@
    div > #d {
        width: 380px;
        height: 200px;
-       background: rgb(139, 219, 175);
+      
        /* order: 3; */
        display: flex;
        line-height: 70px;
@@ -61,7 +61,7 @@
    div > #e{
        width: 190px;
        height: 250px;
-      background: rgb(152, 130, 179);
+      
       line-height: 70px;
       text-align: center;
       justify-content: space-evenly;
@@ -70,7 +70,7 @@
    div > #f {
        width: 190px;
        height: 250px;
-      background: rgb(233, 240, 175);
+     
       line-height: 70px;
       text-align: center;
       justify-content: space-evenly;
@@ -80,7 +80,7 @@
    div > #g {
        width: 190px;
        height: 250px;
-      background: coral;
+   
       line-height: 70px;
       text-align: center;
       justify-content: space-evenly;
@@ -89,13 +89,34 @@
    div > #h {
        width: 190px;
        height: 250px;
-      background: rgb(216, 116, 136);
+     
       line-height: 70px;
       text-align: center;
       justify-content: space-evenly;
       flex-direction: column;
    }
-   
+    #a{
+    /* order: 1;  */
+    height:100px ;
+    width: 960px;
+    
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    
+ }
+
+#i {
+    width: 760px;
+    height: 150px;
+  
+    line-height: 70px;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
        
    }
    
@@ -133,7 +154,7 @@
     }
      
     aside#b {
-    background: cadetblue;
+  
     height: 150px;
     width: 480px;
     display: flex;
@@ -146,7 +167,7 @@
     div > #c {
         width: 480px;
         height: 125px;
-        background: rgb(226, 176, 214);
+      
         /* order: 3; */
         display: flex;
         line-height: 70px;
@@ -157,7 +178,7 @@
       div > #d {
           width: 480px;
           height: 125px;
-          background: rgb(139, 219, 175);
+        
           /* order: 3; */
           display: flex;
           line-height: 70px;
@@ -168,7 +189,7 @@
       div > #e{
           width: 240px;
           height: 250px;
-         background: rgb(152, 130, 179);
+       
          line-height: 70px;
          text-align: center;
          justify-content: space-evenly;
@@ -177,7 +198,7 @@
       div > #f {
           width: 240px;
           height: 250px;
-         background: rgb(233, 240, 175);
+         
          line-height: 70px;
          text-align: center;
          justify-content: space-evenly;
@@ -187,7 +208,7 @@
       div > #g {
           width: 240px;
           height: 250px;
-         background: coral;
+       
          line-height: 70px;
          text-align: center;
          justify-content: space-evenly;
@@ -196,11 +217,33 @@
       div > #h {
           width: 240px;
           height: 250px;
-         background: rgb(216, 116, 136);
+        
          line-height: 70px;
          text-align: center;
          justify-content: space-evenly;
          flex-direction: column;
       }
+            #a{
+       /* order: 1;  */
+       height:75px ;
+       width: 480px;
+    
      
+       height: 70px;
+       line-height: 70px;
+       text-align: center;
+       
+    }
+   
+    
+   #i {
+       width: 480px;
+       height: 80px;
+     
+       line-height: 70px;
+       text-align: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+       
+   }
    }
